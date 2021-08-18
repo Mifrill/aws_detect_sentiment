@@ -2,8 +2,8 @@
 
 Provided Client-object to detect the sentiment of provided word or array of words by Aws::Comprehend API
 
-https://aws.amazon.com/getting-started/hands-on/analyze-sentiment-comprehend/
-https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-comprehend
+- https://aws.amazon.com/getting-started/hands-on/analyze-sentiment-comprehend/
+- https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-comprehend
 
 ## Installation
 
