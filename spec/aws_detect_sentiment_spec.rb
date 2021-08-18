@@ -1,11 +1,5 @@
-# frozen_string_literal: true
-
-RSpec.describe AwsDetectSentiment do
+describe AwsDetectSentiment do
   it "has a version number" do
-    expect(AwsDetectSentiment::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(AwsDetectSentiment::VERSION).not_to be_nil
   end
 end
