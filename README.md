@@ -34,7 +34,7 @@ end
 ```ruby
 AwsDetectSentiment::AwsComprehendClient.new.detect_sentiment('positive test')
 # => positive
-AwsDetectSentiment::AwsComprehendClient.new.detect_sentiments(texts: ['positive test', 'negative text'], batch_limit: 5)
+AwsDetectSentiment::AwsComprehendClient.new.detect_sentiments(['positive test', 'negative text'], batch_limit: 5)
 # => ['positive', 'negative']
 ```
 
